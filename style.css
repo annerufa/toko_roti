@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 70px;
+    margin: auto;
+}
+#menu{
+    text-decoration: none;
+    list-style: none;
+}
+#menu a:link, #menu a:visited {
+    width: 112px;
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+#menu a:hover, .active {
+    background-color: red;
+}
+/* content */
+.content{
+    height: 500px;
+  overflow: scroll;
+}
+/* table style */
+.table-menu {
+    width: 98%;
+    border-collapse: collapse;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.table-menu th, .table-menu td {
+    padding: 9px;
+    text-align: left;
+}
+
+.table-menu tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* style tombol */
+.btn{
+    width: 100px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.tambah{
+    background-color: rgb(33, 121, 253);
+    margin: 10px;
+}
+.ubah{
+    background-color: rgb(238, 234, 30);
+    color: black;
+}
+.hapus{
+    background-color: rgb(151, 16, 16);
+}
+/* form tambah+ubah menu */
+
+.add-menu{
+    text-align: left;
+    width: 100%;
+    padding: 25px;
+}
+.add-menu input, .add-menu select{
+    width: 90%;
+    padding: 10px;
+    /* display: block; */
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+#btn-simpan{
+    background-color:#2675eb;
+    float: right;
+    margin-right: 15px;
+    width: 25%;
+}
